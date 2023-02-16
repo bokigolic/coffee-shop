@@ -1,20 +1,92 @@
-.title-label{
-  display: block;
-  
+body{
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.buttonsy{
-  display: block;
-  
-}
 
-#label{
-  font-size:50px;
-}
-.esspresso{
-  width: 150px;
-}
 
+
+
+
+/*
 .menu{
   font-size: 15px;
+}
+
+.form-container {
+  display: none;
+}
+
+.form-container.open {
+  display: block;
+}
+*/
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  background-color: #ddcbcb;
+  box-shadow: 7px 9px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.logo img {
+  border-radius: 6px;
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 45px;
+  margin: 0;
+  color: rgb(87, 59, 12);;
+}
+
+.title p {
+  font-size: 18px;
+  margin: 0;
+  color: rgb(87, 59, 12);
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order {
+  color: rgb(87, 59, 12);
+  color: #fff;
+}
+
+.order:hover {
+  background-color: rgb(87, 59, 12);
+}
+
+.location:hover {
+  background-color: #999;
 }

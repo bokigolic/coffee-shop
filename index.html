@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>JS Counter</title>
+  <title>Coffee shop</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
@@ -17,11 +17,46 @@
     <button id="submitQuantity" type="submit">Submit quantity</button>
   </div>
 -->
-  <div class="title-label">
-    <h3>Coffee Shop</h3>
+
+<div class="header">
+  <div class="logo">
     <img class="esspresso" src="./assets/img/esspresso.png">
-    <br><br>
   </div>
+  <div class="title">
+    <h1>Coffee House</h1>
+    <p>Best coffee in town</p>
+  </div>
+  <div class="buttons">
+    <button class="order">Order Now</button>
+    <button class="location">Find a Location</button>
+  </div>
+</div>
+
+      <label for="coffee">Select your coffee:</label>
+      <select id="coffee" name="coffee">
+        <option value="latte">Latte</option>
+        <option value="cappuccino">Cappuccino</option>
+        <option value="espresso">Espresso</option>
+        <option value="americano">Americano</option>
+        <option value="mocha">Mocha</option>
+      </select>
+      <label for="size">Select your size:</label>
+      <select id="size" name="size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+      <label for="milk">Select your milk:</label>
+      <select id="milk" name="milk">
+        <option value="whole">Whole</option>
+        <option value="skim">Skim</option>
+        <option value="almond">Almond</option>
+        <option value="oat">Oat</option>
+      </select>
+    </form>
+  </div>
+
+
 
 
   <div>
@@ -38,7 +73,21 @@
       <!--
         <button id="submitBtnForTip">Go to tpi section</button>
       <br><br>
-      -->
+      
+      <div class="image-container">
+        <img class="esspresso" src="./assets/img/esspresso.png" alt="Your Image" id="image-click">
+        <div class="form-container">
+          <form>
+            <input type="text" placeholder="Enter Your Name">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+-->
+
+
+
+
 
       <label id="tip" for="tipInput"></label>Tip: </label>
       <input id="customTip" min="0" value="0" type="number" placeholder="Add tip" />
@@ -48,7 +97,7 @@
       <button id="submitBtnsForTip">Total</button>
       <br><br>
       <label id="total">Total: </label>
-      
+
     </form>
   </div>
 
