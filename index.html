@@ -18,47 +18,66 @@
   </div>
 -->
 
-<div class="header">
-  <div class="logo">
-    <img class="esspresso" src="./assets/img/esspresso.png">
-  </div>
-  <div class="title">
-    <h1>Coffee House</h1>
-    <p>Best coffee in town</p>
-  </div>
-  <div class="buttons">
-    <button class="order">Order Now</button>
-    <button class="location">Find a Location</button>
-  </div>
-</div>
-
-      <label for="coffee">Select your coffee:</label>
-      <select id="coffee" name="coffee">
-        <option value="latte">Latte</option>
-        <option value="cappuccino">Cappuccino</option>
-        <option value="espresso">Espresso</option>
-        <option value="americano">Americano</option>
-        <option value="mocha">Mocha</option>
-      </select>
-      <label for="size">Select your size:</label>
-      <select id="size" name="size">
-        <option value="small">Small</option>
-        <option value="medium">Medium</option>
-        <option value="large">Large</option>
-      </select>
-      <label for="milk">Select your milk:</label>
-      <select id="milk" name="milk">
-        <option value="whole">Whole</option>
-        <option value="skim">Skim</option>
-        <option value="almond">Almond</option>
-        <option value="oat">Oat</option>
-      </select>
-    </form>
+  <div class="header">
+    <div class="logo">
+      <img class="esspresso" src="./assets/img/esspresso.png">
+    </div>
+    <div class="title">
+      <h1>Coffee House</h1>
+      <p>Best coffee in town</p>
+    </div>
+    <div class="buttons">
+      <button class="order">Menu</button>
+    </div>
   </div>
 
+  <div class="menu">
+
+
+  </div>
+
+  <div class="chose-option">
+    <label for="coffee">Select your coffee:</label>
+    <select id="coffee" name="coffee">
+      <option value="latte">Latte</option>
+      <option value="cappuccino">Cappuccino</option>
+      <option value="espresso">Espresso</option>
+      <option value="americano">Americano</option>
+      <option value="mocha">Mocha</option>
+    </select>
+    <label for="size">Select your size:</label>
+    <select id="size" name="size">
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select>
+    <label for="milk">Select your milk:</label>
+    <select id="milk" name="milk">
+      <option value="whole">Whole</option>
+      <option value="skim">Skim</option>
+      <option value="almond">Almond</option>
+      <option value="oat">Oat</option>
+    </select>
+
+  </div>
+
+
+  <div>
+    <button id="modal-button">Open Modal</button>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="./assets/img/esspresso.png" alt="Image 1" class="modal-image">
+        <img src="./assets/img/esspresso.png" alt="Image 2" class="modal-image">
+      </div>
+    </div>
+  </div>
 
 
 
+
+
+  <!--
   <div>
     <label for="quantity">Quantity:</label>
     <input type="number" id="quantity" min="1" value="1">
@@ -70,7 +89,7 @@
       <label for="quantity" id="price">See price: </label><br><br>
       <label for="quantity" id="tax">Calculate tax: </label>
       <br><br>
-      <!--
+      
         <button id="submitBtnForTip">Go to tpi section</button>
       <br><br>
       
@@ -83,7 +102,7 @@
           </form>
         </div>
       </div>
--->
+
 
 
 
@@ -100,7 +119,12 @@
 
     </form>
   </div>
-
+  
+  <footer>
+    <div class="buttons-footer">
+      <button class="location-footer">Find a Location</button>
+    </footer>
+  -->
   <script src="script.js"></script>
 </body>
 
