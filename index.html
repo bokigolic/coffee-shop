@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>JS Counter</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!--
+  <div class="buttonsy">
+    <p>Choose a quantity</p>
+    <button id="increaseBtn">+</button>
+    <button id="resetBtn">Reset</button>
+    <button id="decreaseBtn">-</button>
+    <button id="submitQuantity" type="submit">Submit quantity</button>
+  </div>
+-->
+  <div class="title-label">
+    <h3>Coffee Shop</h3>
+    <img class="esspresso" src="./assets/img/esspresso.png">
+    <br><br>
+  </div>
+
+
+  <div>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="1" value="1">
+    <br><br>
+
+    <button id="submitBtn">Add to cart</button>
+
+    <form class="menu"> <br>
+      <label for="quantity" id="price">See price: </label><br><br>
+      <label for="quantity" id="tax">Calculate tax: </label>
+      <br><br>
+      <!--
+        <button id="submitBtnForTip">Go to tpi section</button>
+      <br><br>
+      -->
+
+      <label id="tip" for="tipInput"></label>Tip: </label>
+      <input id="customTip" min="0" value="0" type="number" placeholder="Add tip" />
+      <br>
+      <br>
+
+      <button id="submitBtnsForTip">Total</button>
+      <br><br>
+      <label id="total">Total: </label>
+      
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
